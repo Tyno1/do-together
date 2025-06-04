@@ -1,23 +1,19 @@
-# Turborepo starter
+# do-together
 
-This Turborepo starter is maintained by the Turborepo core team.
+A collaborative task management application built with Next.js and shadcn/ui.
 
-## Using this example
+## Project Setup
 
-Run the following command:
+This project uses Turborepo for monorepo management. Below is the documentation for the setup:
 
-```sh
-npx create-turbo@latest
-```
-
-## What's inside?
+# Turborepo Setup Details
 
 This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
 
 - `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
+- `web`: another [Next.js](https://nextjs.org/) app with shadcn/ui components
 - `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
 - `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
@@ -51,9 +47,6 @@ pnpm dev
 ```
 
 ### Remote Caching
-
-> [!TIP]
-> Vercel Remote Cache is free for all plans. Get started today at [vercel.com](https://vercel.com/signup?/signup?utm_source=remote-cache-sdk&utm_campaign=free_remote_cache).
 
 Turborepo can use a technique known as [Remote Caching](https://turborepo.com/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
 
